@@ -26,7 +26,10 @@ def create_files_and_folder():
                     total_size += os.path.getsize(fp)
 
         size_mb = total_size / (1024 * 1024)
-        print(f"Размер на папката '{folder_name}': {size_mb:.6f} MB")
+        print(f"Размер на папката '{folder_name}': {size_mb} MB")
 
     except FileNotFoundError:
-        print("Файлът filenames.txt не беше намерен.")
+        print("Error.")
+
+
+create_files_and_folder()

@@ -1,0 +1,6 @@
+files
+docs
+installs
+report
+notes
+summary
