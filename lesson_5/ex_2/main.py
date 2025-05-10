@@ -14,7 +14,7 @@ def double_integers():
         with open("doubled_ints.txt", "w", encoding="utf-8") as outfile:
             outfile.write("\n".join(doubled_lines))
 
-        print("Числата са записани в doubled_ints.txt.")
+        print("Done")
     except FileNotFoundError:
         print("Error")
 

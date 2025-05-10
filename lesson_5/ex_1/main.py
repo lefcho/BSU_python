@@ -8,9 +8,8 @@ def reverse_file_lines():
         with open("string_reverse.txt", "w", encoding="utf-8") as outfile:
             outfile.write("\n".join(reversed_lines))
 
-        print("Saved in string_reverse.txt.")
+        print("Done")
     except FileNotFoundError:
-        print("string_data.txt not found.")
-
+        print("Error.")
 
 reverse_file_lines()
